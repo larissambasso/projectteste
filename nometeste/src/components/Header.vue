@@ -11,15 +11,15 @@
 </template>
 
 <script setup>
-  defineProps({
-    menu:{
-      type:String,
-    },
-    titulo:{
-      type:String,
-      default:'not'
-    },
-  })
+  export default {
+    name: 'card',
+    props: {
+      titulo:{
+        type:String,
+        default:'not'
+      },
+    }
+  }
 </script>
 
 <style scoped>

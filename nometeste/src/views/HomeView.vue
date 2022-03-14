@@ -1,10 +1,3 @@
-<script setup>
-import MeuprimeiroComponente from '@/components/MeuprimeiroComponente.vue'
-import Cards from '@/components/Cards.vue'
-import Header from '@/components/Header.vue'
-import Footer from '@/components/Footer.vue'
-</script>
-
 <template>
   <main>
       <Header titulo='meu header' 
@@ -37,12 +30,26 @@ import Footer from '@/components/Footer.vue'
   </main>
 </template>
 
+<script>
+import Cards from '@/components/Cards.vue'
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
+export default{
+  name:'HomeView',
+  components:{
+    Cards,
+    Header,
+    Footer
+  }
+}
+
+</script>
+
 <style scoped>
   .row{
     display: flex;
     justify-content: center;
     padding: 10%;
-  
   }
 
 </style>

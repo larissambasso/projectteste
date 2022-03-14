@@ -8,12 +8,8 @@
   </footer>
 </template> 
 
-<script setup>
-  defineProps({
-    git:{
-      type:String,
-    },
-  })
+<script>
+
 </script>
 
 <style scoped>

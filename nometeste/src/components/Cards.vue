@@ -8,20 +8,25 @@
   </section>
 </template> 
 
-<script setup>
-  defineProps({
-    imagem:{
-      type:String,
-      default: 'not'
-    },
-    botao:{
-      type:String,
-      default: 'not'
-    },
-    titulo:{
-      type:String,
+<script>
+export default {
+    name: 'card',
+    props: {
+      imagem:{
+        type: String,
+        default: 'not'
+      },
+      botao: {
+        type: String,
+        default: 'not'
+      },
+      titulo:{
+        type: String,
+        required: true
+      }
     }
-  })
+  }
+
 </script>
 
 <style scoped>
