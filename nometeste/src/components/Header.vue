@@ -2,9 +2,9 @@
   <div class="header">
     <nav class="menu">
       <ul>
-        <li><a :href="menu">Pagina principal</a></li>
-        <li><a href="#">Campeonatos</a></li>
-        <li><a href="#">Jogos</a></li>
+        <li><a v-if="'not'!==titulo" :href="titulo">Pagina principal</a></li>
+        <li><a v-if="'not'!==titulo" :href="titulo">Campeonatos</a></li>
+        <li><a v-if="'not'!==titulo" :href="titulo">Jogos</a></li>
       </ul>
     </nav>
   </div>
@@ -14,6 +14,10 @@
   defineProps({
     menu:{
       type:String,
+    },
+    titulo:{
+      type:String,
+      default:'not'
     },
   })
 </script>

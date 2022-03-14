@@ -2,11 +2,12 @@
 import MeuprimeiroComponente from '@/components/MeuprimeiroComponente.vue'
 import Cards from '@/components/Cards.vue'
 import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
   <main>
-      <Header menu='' 
+      <Header titulo='meu header' 
       />
     <div class="row">
       <Cards 
@@ -30,6 +31,9 @@ import Header from '@/components/Header.vue'
         titulo='COPA SULAMERICANA'
       />
     </div>
+      <Footer
+        git='oi'
+      />
   </main>
 </template>
 
