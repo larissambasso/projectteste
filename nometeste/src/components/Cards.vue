@@ -25,7 +25,6 @@
 </script>
 
 <style scoped>
-
   .card{
     background-color: rgb(145, 133, 133);
     border: 10px solid #ccc;
@@ -36,6 +35,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin-right: 15px;
   }
   h3{
     position: absolute;
@@ -52,6 +52,7 @@
     bottom: 20%;
     height: 40px;
     width: 100px;
-  }  
+  }
+
 </style>
 
