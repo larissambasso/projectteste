@@ -1,6 +1,8 @@
 <template>
-    <p :class="'ddd'===texto ? 'exemplo' : 'vermelho'">{{texto}}</p>
-    <img v-if="'larissa'!==endereco" :src='endereco'>
+    <div>
+        <p :class="'ddd'===texto ? 'exemplo' : 'vermelho'">{{texto}}</p>
+        <img v-if="'larissa'!==endereco" :src='endereco'>
+    </div>
 </template>
 
 <script setup>
