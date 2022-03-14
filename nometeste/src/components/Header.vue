@@ -28,17 +28,22 @@
     height: 70px;
     background: gray;
     top: 0%;
-    padding-left: 10%;
+    padding-left: 3%;
     padding-right: 10%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
   }
   li{
     list-style-type:none;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
+    background: rgb(40, 181, 216);
+    width: 170px;
+    height: 40px;
+    border-radius: 7px;
   }
   a{
     text-decoration: none;
