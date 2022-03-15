@@ -1,8 +1,7 @@
 <template>
   <section class="pokemon">
-    <div v-for="item of pokemon" :key="item.id">
-      <h2>MEUS POKEMONS</h2>
-      <img :src='item.url'>
+    <div v-for="(item, index) in pokemon" :key="index"><!-- quando nao tivermos id, o index serve como chave para localizar cada objeto-->
+      <img :src="buscarImagem(index+1)">
       <p>{{item.name}}</p>
     </div>
   </section>
@@ -20,8 +19,14 @@ export default {
     fetch('https://pokeapi.co/api/v2/pokemon')
     .then(mostrar => mostrar.json())
     .then(json => {
-      this.pokemon = json;
+      this.pokemon = json.results;
     });
+  },
+  methods:{
+    buscarImagem: (index) => {
+      return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/'+index+'.png'
+    }
+
   }
 }
 </script>
