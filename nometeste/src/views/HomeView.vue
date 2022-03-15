@@ -1,7 +1,6 @@
 <template>
   <main>
-      <Header titulo='meu header' 
-      />
+      <Header titulo='meu header'/>
     <div class="row">
       <Cards v-for="dado in dados" :key="dado.id" 
         :imagem=dado.imagem
@@ -9,14 +8,10 @@
         :titulo=dado.titulo
       />
     </div>
-      <Times 
-      />
-      <Treino
-      />
-      <MinhaApi
-      />
-      <Footer
-      />
+      <Times />
+      <Treino />
+      <MinhaApi />
+      <Footer />
     
   </main>
 </template>
