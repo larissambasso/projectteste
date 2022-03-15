@@ -11,6 +11,8 @@
     </div>
       <Footer
       />
+      <TesteFor 
+      />
   </main>
 </template>
 
@@ -18,12 +20,15 @@
 import Cards from '@/components/Cards.vue'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
+import TesteFor from '@/components/TesteFor.vue'
+
 export default{
   name:'HomeView',
   components:{
     Cards,
     Header,
-    Footer
+    Footer,
+    TesteFor
   },
   data(){
     return{
