@@ -11,6 +11,8 @@
     </div>
       <Times 
       />
+      <MinhaApi
+      />
       <Footer
       />
     
@@ -22,6 +24,8 @@ import Cards from '@/components/Cards.vue'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import Times from '@/components/Times.vue'
+import MinhaApi from '@/components/MinhaApi.vue'
+
 
 export default{
   name:'HomeView',
@@ -29,7 +33,8 @@ export default{
     Cards,
     Header,
     Footer,
-    Times
+    Times,
+    MinhaApi
   },
   data(){
     return{
