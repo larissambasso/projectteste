@@ -2,7 +2,7 @@
   <footer>
     <div class="caixa">
       <p>Este é um site teste para que eu consiga treinar HTML, CSS e JS usando como framework o VUE.</p> 
-      <p>Larissa</p>
+      <p>Larissa Moura Basso</p>
       <a target="blank" href="https://github.com/larissambasso">MEU GITHUB</a>
     </div>
   </footer>

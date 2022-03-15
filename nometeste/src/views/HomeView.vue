@@ -9,10 +9,11 @@
         :titulo=dado.titulo
       />
     </div>
+      <Times 
+      />
       <Footer
       />
-      <TesteFor 
-      />
+    
   </main>
 </template>
 
@@ -20,7 +21,7 @@
 import Cards from '@/components/Cards.vue'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import TesteFor from '@/components/TesteFor.vue'
+import Times from '@/components/Times.vue'
 
 export default{
   name:'HomeView',
@@ -28,7 +29,7 @@ export default{
     Cards,
     Header,
     Footer,
-    TesteFor
+    Times
   },
   data(){
     return{
