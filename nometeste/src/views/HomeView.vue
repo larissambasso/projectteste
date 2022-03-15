@@ -11,6 +11,8 @@
     </div>
       <Times 
       />
+      <Treino
+      />
       <MinhaApi
       />
       <Footer
@@ -25,6 +27,7 @@ import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import Times from '@/components/Times.vue'
 import MinhaApi from '@/components/MinhaApi.vue'
+import Treino from '@/components/Treino.vue'
 
 
 export default{
@@ -34,7 +37,8 @@ export default{
     Header,
     Footer,
     Times,
-    MinhaApi
+    MinhaApi,
+    Treino
   },
   data(){
     return{
